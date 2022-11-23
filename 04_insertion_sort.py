@@ -43,8 +43,6 @@ insertion_sort(arr)
 print('Ordered List:', arr)
 print('-' * 100)
 
-# Output: List sorted with bubble sort in ascending order:  [1, 2, 3, 4, 5]
-
 input_number = int(input('Select the amount of random numbers to order: '))
 input_list = [random.randint(1, 100) for x in range(input_number)]
 print('Unordered List:', input_list)
