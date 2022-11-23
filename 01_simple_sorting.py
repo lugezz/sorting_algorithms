@@ -3,6 +3,7 @@ Order a list in ascending order
 """
 
 import random
+import time
 
 list_1 = [2, 3, 1, 5]
 big_list = [random.randint(1, 3000) for x in range(1000)]
@@ -46,7 +47,14 @@ input_number = int(input('Select the amount of random numbers to order: '))
 input_list = [random.randint(1, 100) for x in range(input_number)]
 print('Unordered list:', input_list)
 print('-' * 100)
+start = time.time()
 new_list = simple_sorting_opt(input_list)
+end = time.time()
 print('Ordered List:', new_list)
+print('Miliseconds Time:', round((end - start) * 1000))
+
+start = time.time()
 new_list = simple_sorting_opt(input_list, False)
+end = time.time()
 print('Ordered List Descending:', new_list)
+print('Miliseconds Time:', round((end - start) * 1000))
