@@ -1,8 +1,11 @@
 """
 The bubble sort algorithm is a reliable sorting algorithm. This algorithm has a worst-case time
-complexity of O(n2). The bubble sort has a space complexity of O(1). The number of swaps in
-bubble sort equals the number of inversion pairs in the given array. When the array elements are
-few and the array is nearly sorted, bubble sort is effective and efficien
+The number of swaps in bubble sort equals the number of inversion pairs in the given array.
+When the array elements are few and the array is nearly sorted, bubble sort is effective and
+efficient
+
+Time complexity: O(n2).
+Space complexity of O(1).
 """
 
 import random

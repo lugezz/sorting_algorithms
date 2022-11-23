@@ -1,6 +1,10 @@
-# Selection sort in Python
-# time complexity O(n*n)
-# Sorting by finding min_index
+"""
+Selection sort in Python
+Sorting by finding min_index
+
+Time complexity: O(n2).
+Space complexity of O(1).
+"""
 
 import random
 import time
