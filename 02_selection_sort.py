@@ -23,7 +23,7 @@ arr = [-2, 45, 0, 11, -9, 88, -97, -202, 747]
 size = len(arr)
 print('Unordered List:', arr)
 selection_sort(arr, size)
-print('Ordered List Descending:', arr)
+print('Ordered List:', arr)
 print('-' * 100)
 
 input_number = int(input('Select the amount of random numbers to order: '))
