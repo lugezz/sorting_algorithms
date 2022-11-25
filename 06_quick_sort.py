@@ -14,7 +14,7 @@ until each subarray contains a single element.
 array.
 
 Time complexity: O(n log n).
-Space complexity of O(n).
+Space complexity of O(n log n).
 """
 
 import random
